@@ -7,10 +7,16 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["vnbd", "volunteer", "bangladesh", "nonprofit"],
+  "keywords": [
+    "vnbd",
+    "volunteer",
+    "bangladesh",
+    "nonprofit"
+  ],
   "author": "VNBD",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^4.0.1",
     "express": "^4.18.2"
   },
   "devDependencies": {
