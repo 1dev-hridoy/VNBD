@@ -1,0 +1,38 @@
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 group">
+            <img src="/public/images/624622720_2326974711102935_6538446327778855694_n.jpg" alt="VNBD Logo"
+                class="w-10 h-10 rounded-lg object-cover" />
+            <span class="font-outfit font-bold text-lg tracking-tight text-slate-900">
+                VN<span class="text-green-600">BD</span>
+            </span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-8">
+            <a href="/" class="nav-link">Home</a>
+            <a href="/team" class="nav-link">Team</a>
+            <a href="/gallery" class="nav-link">Gallery</a>
+        </div>
+
+        <a href="/join" class="nav-cta hidden md:block">
+            Join Us
+        </a>
+
+        <!-- Mobile Button -->
+        <button id="menu-toggle" class="md:hidden flex flex-col gap-1.5 w-6">
+            <span class="hamburger-line w-full"></span>
+            <span class="hamburger-line w-full"></span>
+            <span class="hamburger-line w-full"></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+        <div class="flex flex-col gap-4">
+            <a href="/" class="text-slate-900 font-medium text-sm">Home</a>
+            <a href="/team" class="text-slate-500 font-medium text-sm">Team</a>
+            <a href="/gallery" class="text-slate-500 font-medium text-sm">Gallery</a>
+            <a href="/join" class="btn-primary w-full text-center mt-2 justify-center">Join Us</a>
+        </div>
+    </div>
+</nav>
